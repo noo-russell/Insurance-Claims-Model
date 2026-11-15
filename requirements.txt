@@ -1,0 +1,8 @@
+pandas
+numpy
+scikit-learn
+statsmodels
+lightgbm
+matplotlib
+pyreadr
+tabulate
