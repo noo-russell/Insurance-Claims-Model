@@ -1,0 +1,57 @@
+{
+  "test_policies": 135660,
+  "test_claims": 5161,
+  "frequency": {
+    "null": {
+      "poisson_deviance": 0.2483536462365888,
+      "predicted_over_actual": 1.0304449465926917,
+      "gini": 0.0
+    },
+    "glm": {
+      "poisson_deviance": 0.23663819817734577,
+      "predicted_over_actual": 1.0288675067985686,
+      "gini": 0.29330525572355204,
+      "deviance_explained_pct": 4.717244234893392
+    },
+    "gbm": {
+      "poisson_deviance": 0.23190448474901,
+      "predicted_over_actual": 1.0266303957326617,
+      "gini": 0.33258425831834837,
+      "deviance_explained_pct": 6.6232816537385775
+    }
+  },
+  "severity": {
+    "null": {
+      "gamma_deviance": 1.2534437261367772,
+      "predicted_over_actual": 1.063092270494069
+    },
+    "glm": {
+      "gamma_deviance": 1.2468849029125302,
+      "predicted_over_actual": 1.0570898391689363,
+      "deviance_explained_pct": 0.5232642748519645
+    },
+    "gbm": {
+      "gamma_deviance": 1.243660412237645,
+      "predicted_over_actual": 1.0477840838492456,
+      "deviance_explained_pct": 0.7805148085335611
+    }
+  },
+  "pure_premium": {
+    "null": {
+      "gini": 0.0,
+      "predicted_over_actual": 1.0935510709443892
+    },
+    "glm": {
+      "gini": 0.31837371201066,
+      "predicted_over_actual": 1.091094631696923
+    },
+    "gbm": {
+      "gini": 0.38645677814055734,
+      "predicted_over_actual": 1.074966353173241
+    }
+  },
+  "gbm_rounds": {
+    "frequency": 263,
+    "severity": 33
+  }
+}
